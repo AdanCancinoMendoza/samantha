@@ -24,7 +24,7 @@ export function Hero() {
     useGSAP(() => {
         const tl = gsap.timeline({ defaults: { ease: "expo.out" } });
 
-        // PREMIUM HOLOGRAM ENTRANCE
+        // HOLOGRAM ENTRANCE
         const titleText = titleRef.current;
         const glitchLayers = titleRef.current?.querySelectorAll(".glitch-layer");
 
