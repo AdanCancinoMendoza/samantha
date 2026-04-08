@@ -66,8 +66,8 @@ export function Pricing() {
                 }
             );
             gsap.to(pricingRobotRef.current, {
-                y: -2,
-                duration: 4,
+                y: -5,
+                duration: 5,
                 repeat: -1,
                 yoyo: true,
                 ease: "sine.inOut",
@@ -172,7 +172,7 @@ export function Pricing() {
                 {/* Robot + Cards stacked with natural flow */}
                 <div className="flex flex-col items-center">
                     {/* Robot: sits in normal flow, negative margin pulls cards up to meet its base */}
-                    <div ref={pricingRobotRef} className="relative z-20 pointer-events-none w-72 h-72 md:w-96 md:h-66 -mb-54 md:-mb-10 drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)] opacity-0">
+                    <div ref={pricingRobotRef} className="relative z-20 pointer-events-none w-72 h-72 md:w-96 md:h-80 -mb-54 md:mb-10 drop-shadow-[0_20px_60px_rgba(59,130,246,0.25)] opacity-0">
                         <Image
                             src="/M2.png"
                             alt="Samantha Pricing Robot"
